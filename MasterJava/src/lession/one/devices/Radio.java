@@ -1,22 +1,4 @@
-package lession.one;
-
-class Device {
-
-	private int id;
-
-	public Device(int id) {
-		this.id = id;
-	}
-
-	public int getId() {
-		return id;
-	}
-
-	@Override
-	public String toString() {
-		return String.valueOf(id);
-	}
-}
+package lession.one.devices;
 
 class Radio extends Device {
 
