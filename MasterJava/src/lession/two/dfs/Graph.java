@@ -1,14 +1,16 @@
 package lession.two.dfs;
 
+import java.util.ArrayList;
+
 public class Graph {
 
-	private int V;
+	private ArrayList<Node> nodeList;
 
-	public Graph(int V) {
-		this.V = V;
+	public Graph(ArrayList<Node> nodeList) {
+		this.nodeList = nodeList;
 	}
 
-	public int getV() {
-		return V;
+	public ArrayList<Node> getNodeList() {
+		return nodeList;
 	}
 }
