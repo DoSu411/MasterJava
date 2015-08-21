@@ -32,6 +32,19 @@ public class Node {
 	}
 
 	/*
+	 * 
+	 * @return true or false
+	 */
+	public boolean isNeighbour(Node node) {
+		if (edgeList.contains(node)) {
+			return true;
+		} else {
+			return false;
+		}
+
+	}
+
+	/*
 	 * @return reached
 	 */
 	public boolean isReached() {
